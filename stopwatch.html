@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Clock App</title>
+		<link rel="stylesheet" type="text/css" href="stopwatch.css">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	</head>
+	<body>
+		<div class="options">
+				<button type="button" class="clock top-button" onclick="location.href='index.html'">clock</button>
+				<button type="button" class="stopwatch top-button">stopwatch</button>
+				<button type="button" class="timer top-button" onclick="location.href='timer.html'">timer</button>
+		</div>
+		
+		<div class="contents">
+			<div class="title">Stopwatch</div>
+			<div class="time">00:00:00</div>
+			<div id = "buttons">
+				<button id="start" class="start bottom-buttons">start</button>
+				<button id="pause" class="pause bottom-buttons">pause</button>
+				<button id="reset" class="reset bottom-buttons">reset</button>
+			</div>
+		</div>
+
+		<script src="stopwatch.js"></script>
+	</body>
+</html>

@@ -1,0 +1,177 @@
+body{
+	min-height: 100vh;
+	background: black;
+	color: white;
+}
+
+.title{
+	font-family: monospace;
+	font-size: 60px;
+	text-decoration: underline dashed;
+	margin-bottom: 0px;
+}
+
+.options{
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px 5px 0px 0px;
+}
+
+.top-button{
+	font-family: monospace;;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: white;
+	background: black;
+	outline: none;
+	border: 1px solid white;
+}
+
+.clock{
+	border-radius: 10px 0px 0px 10px;
+	cursor: pointer;
+}
+
+.clock:hover{
+	background: lightgrey;
+	color: black;
+}
+
+.timer{
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+	background: lightgrey;
+	color: black;
+}
+
+.timer:hover{
+	background: lightgrey;
+	color: black;
+}
+
+.stopwatch{
+	cursor: pointer;
+}
+
+.stopwatch:hover{
+	background: lightgrey;
+	color: black;
+}
+
+.contents{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 110px;
+	text-transform: capitalize;
+}
+
+.bottom-buttons{
+	font-family: monospace;
+	font-size: 40px;
+	margin-top: 20px;
+	text-transform: capitalize;
+	border: none;
+	outline: none;
+	color: white;
+	background: black;
+	cursor: pointer;
+}
+
+.time{
+	font-family: 'Orbitron', monospace;
+	font-size: 50px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.h_up_arrow{
+	border-color: white transparent;
+	border-style: solid;
+	border-width: 0px 20px 20px 20px;
+	height: 0px;
+	width: 0px;
+	cursor: pointer;
+	margin-right: -50px;
+	margin-left: 10px;
+	margin-top: -23px;	
+}
+
+.m_up_arrow{
+	border-color: white transparent;
+	border-style: solid;
+	border-width: 0px 20px 20px 20px;
+	height: 0px;
+	width: 0px;
+	cursor: pointer;
+	margin-right: -50px;
+	margin-left: 10px;
+	margin-top: -23px;	
+}
+
+.s_up_arrow{
+	border-color: white transparent;
+	border-style: solid;
+	border-width: 0px 20px 20px 20px;
+	height: 0px;
+	width: 0px;
+	cursor: pointer;
+	margin-right: -50px;
+	margin-left: 10px;
+	margin-top: -23px;	
+}
+
+.h_down_arrow{
+	border-color: white transparent;
+	border-style: solid;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+	margin-right: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.m_down_arrow{
+	border-color: white transparent;
+	border-style: solid;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+	margin-right: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.s_down_arrow{
+	border-color: white transparent;
+	border-style: solid;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+	margin-right: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.start{
+	margin-right: 35px;
+}
+
+.start:active{
+	font-size: 39px;
+}
+
+.pause:active{
+	font-size: 39px;
+}
+
+.reset{
+	margin-left: 35px;
+}
+
+.reset:active{
+	font-size: 39px;
+}
